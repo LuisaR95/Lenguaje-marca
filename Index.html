@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="estilos.css">
+  <title>Descubre Cartagena</title>
+</head>
+
+<body>
+  <header id="menu">>
+    <h1>Descubre Cartagena</h1>
+    <nav>
+      <ul>
+        <li><a href="#introduccion">Introducción</a></li>
+        <li><a href="#lugares">Lugares</a></li>
+        <li><a href="#gastronomia">Gastronomía</a></li>
+        <li><a href="#historia">Historia</a></li>
+        <li><a href="#actividades">Actividades</a></li>
+        <li><a href="#video">Video</a></li>
+        <li><a href="#contacto">Contáctanos</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="introduccion" class="card">
+      <div class="card-content">
+        <h2>Introducción a Cartagena</h2>
+        <div class="section-image">
+          <img src="imagenes/vista-aerea-cartagena.jpg" alt="Vista aérea de Cartagena" class="feature-image">
+        </div>
+        <p>Cartagena de Indias, ubicada en la costa caribeña de Colombia, es una ciudad llena de historia, cultura y belleza natural. Sus calles empedradas, coloridas fachadas coloniales y murallas antiguas cuentan historias de épocas pasadas, mientras que sus playas, gastronomía y ambiente vibrante la convierten en un destino turístico único y cautivador. Cartagena es, sin duda, un lugar donde el pasado y el presente se fusionan para ofrecer una experiencia inolvidable.</p>
+      </div>
+    </section>
+
+    <section id="lugares" class="card">
+      <div class="card-content">
+        <h2>Lugares Turísticos Destacados</h2>
+        <div class="image-grid">
+          <div class="image-item">
+            <img src="imagenes/ciudad-amurallada.jpg" alt="Ciudad Amurallada">
+            <p>Ciudad Amurallada</p>
+          </div>
+          <div class="image-item">
+            <img src="imagenes/castillo-san-felipe.jpg" alt="Castillo de San Felipe">
+            <p>Castillo de San Felipe de Barajas</p>
+          </div>
+          <div class="image-item">
+            <img src="imagenes/islas-rosario.jpg" alt="Islas del Rosario">
+            <p>Islas del Rosario</p>
+          </div>
+        </div>
+      </div>
+      <a href="#menu" class="volver-menu">Volver al menú</a>
+    </section>
+
+    <section id="gastronomia" class="card">
+      <div class="card-content">
+        <h2>Gastronomía Típica</h2>
+        <div class="food-grid">
+          <div class="food-item">
+            <img src="imagenes/arroz-coco.jpg" alt="Arroz con coco">
+            <p>Arroz con Coco</p>
+          </div>
+          <div class="food-item">
+            <img src="imagenes/pescado-frito.jpg" alt="Pescado frito">
+            <p>Pescado Frito</p>
+          </div>
+          <div class="food-item">
+            <img src="imagenes/arepa-huevo.jpg" alt="Arepa de huevo">
+            <p>Arepa de Huevo</p>
+          </div>
+        </div>
+        <p>La gastronomía de Cartagena refleja la riqueza cultural y natural de la región Caribe colombiana. Platos como el arroz con coco, el pescado frito y la arepa de huevo son protagonistas en la mesa cartagenera, combinando sabores frescos del mar con ingredientes tradicionales. La cocina local es una experiencia deliciosa que mezcla influencias indígenas, africanas y españolas, perfecta para quienes buscan disfrutar de sabores auténticos y únicos.</p>
+      </div>
+      <a href="#menu" class="volver-menu">Volver al menú</a>
+    </section>
+
+    <section id="historia" class="card">
+      <div class="card-content">
+        <h2>Historia y Cultura</h2>
+        <div class="section-image">
+          <img src="imagenes/historia-cartagena.jpg" alt="Historia de Cartagena" class="feature-image">
+        </div>
+        <p>Cartagena de Indias fue fundada en 1533 y rápidamente se convirtió en un importante puerto colonial estratégico para el Imperio español. Sus murallas y fuertes, como el Castillo de San Felipe de Barajas, fueron construidos para proteger la ciudad de ataques piratas y enemigos. A lo largo de los siglos, Cartagena ha sido testigo de múltiples acontecimientos históricos que han marcado su identidad, desde la lucha por la independencia hasta su reconocimiento como Patrimonio Cultural de la Humanidad por la UNESCO. Hoy, la ciudad conserva viva su historia y cultura, siendo un símbolo de resistencia y orgullo caribeño.</p>
+      </div>
+    </section>
+
+    <section id="actividades" class="card">
+      <div class="card-content">
+        <h2>Actividades Recomendadas</h2>
+        <div class="activities-grid">
+          <div class="activity-item">
+            <img src="imagenes/chiva.jpg" alt="Chiva nocturna">
+            <p>Paseos en chiva nocturna</p>
+          </div>
+          <div class="activity-item">
+            <img src="imagenes/tour-murallas.jpg" alt="Tour por las murallas">
+            <p>Tour por las murallas</p>
+          </div>
+          <div class="activity-item">
+            <img src="imagenes/snorkeling.jpg" alt="Snorkeling">
+            <p>Snorkeling en las Islas del Rosario</p>
+          </div>
+        </div>
+      </div>
+      <a href="#menu" class="volver-menu">Volver al menú</a>
+    </section>
+
+    <section id="video" class="card">
+      <div class="card-content">
+        <h2>Video</h2>
+        <div class="video-wrapper">
+          <video controls>
+            <source src="videos/cartagena-tour.mp4" type="video/mp4">
+            Tu navegador no soporta el video HTML5.
+          </video>
+        </div>
+      </div>
+      <a href="#menu" class="volver-menu">Volver al menú</a>
+    </section>
+  </main>
+
+  <section id="contacto" class="contact-section">
+  <h2>Contáctenos</h2>
+  <form action="#" method="POST">
+    <label for="nombre">Nombre:</label>
+    <input type="text" id="nombre" name="nombre" required>
+
+    <label for="email">Correo electrónico:</label>
+    <input type="email" id="email" name="email" required>
+
+    <label for="mensaje">Mensaje:</label>
+    <textarea id="mensaje" name="mensaje" rows="5" required></textarea>
+
+    <button type="submit">Enviar</button>
+  </form>
+  <a href="#menu" class="volver-menu">Volver al menú</a>
+</section>
+
+
+  <footer>
+    <p>&copy; 2025 Descubre Cartagena. Todos los derechos reservados.</p>
+    <div class="redes">
+      <!-- Redes sociales si quieres -->
+    </div>
+  </footer>
+  <a href="#" class="go-top" aria-label="Ir arriba">↑</a>
+</body>
+</html>
